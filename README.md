@@ -87,22 +87,19 @@ Os grupos deverão entregar o seguinte:
 
 A pipeline CI é executada a cada commit em qualquer branch que tenha o prefixo 'feature/*', já a pipeline CD é executada a cada merge na branch main.
 
-[https://github.com/edinanxs/hackathon-fiap/actions](https://github.com/vicnp/techchallange/actions)
+[https://github.com/vicnp/hackathon-fiap/actions](https://github.com/vicnp/techchallange/actions)
 
 
 ## Arquitetura
 
-<img width="564" alt="arquitetura" src="https://github.com/user-attachments/assets/fcd522f0-52c7-4eb7-8f17-8edee1058f29" />
+<img width="564" alt="arquitetura" src="https://github.com/user-attachments/assets/dd96ce82-32a0-4d54-a6cb-d7465e6eba7b" />
 
 
 ## Subdomínios
 
-![subdominios](https://github.com/user-attachments/assets/23d3df6f-0fdb-4edb-b150-d0e773952f90)
+<img width="564" alt="arquitetura" src="https://github.com/user-attachments/assets/5df55893-e232-4786-ba14-54fd3d938dc8" />
 
 
-## Objetos de Valor
-
-![objetos de velor](https://github.com/user-attachments/assets/eb2da194-1883-49cd-928d-14e705d8d0c1)
 
 
 
@@ -110,23 +107,24 @@ A pipeline CI é executada a cada commit em qualquer branch que tenha o prefixo 
 
 ### Cadastro de Médico
 
-![Cadastro Medico](https://github.com/user-attachments/assets/ef3aa9d0-b26e-4f2c-a30c-434f377ec61c)
+- O médico preenche uma ficha funcional com seus dados, suas especialidades e CRM para avaliação do Time administrativo do hospital, que por sua vez faz uma avaliação e o devido arquivamento do documento.
 
+![Cadastro de Médico](https://github.com/user-attachments/assets/cfb85320-fce0-4978-aba1-9d79625007d8)
 
+  
 ### Cadastro de Paciente
 
-![Cadastro Paciente](https://github.com/user-attachments/assets/0d32dbfb-b21a-4ffd-8d16-fce6cfe45fe7)
+- O paciente preenche a ficha cadastral na recepção, que é avaliada e devidamente arquivada pelos recepcionistas do hospital.
+  
+![Cadastro de Paciente](https://github.com/user-attachments/assets/031a3e7f-06a2-42d4-b996-cde23c57dfce)
 
 
 ### Agendamento de Consulta
 
-![Agendamento Consulta](https://github.com/user-attachments/assets/4d1bd5e8-492f-4222-bec1-a646d0e219a3)
+- O Paciente, depois de sua ficha feita na recepção do hospital, usa o sistema para agendar uma próxima consulta.
+- Assim que o agendamento é solicitado pelo paciente, a equipe da recepção recebe uma notificação, faz a avaliação da ficha cadastral do paciente, consulta os horários disponíveis, realizam o agendamento e notificam o paciente por email.
 
-
-### Aceite/Recusa de Consulta
-
-![Aceite e Recusa de consulta](https://github.com/user-attachments/assets/689bb1fe-070a-4c8c-b933-aae00a0a5355)
-
+![Agendamento de Consulta](https://github.com/user-attachments/assets/4a314479-4df1-44f9-98ac-1b321fb2606e)
 
 
 ## Justificativas das Escolhas Técnicas
